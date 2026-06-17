@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --primary: red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.a3 {
+    width: 297mm;
+    height: 420mm;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.a2 {
+    width: 420mm;
+    height: 594mm;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.a1 {
+    width: 594mm;
+    height: 841mm;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.a4 {
+    width: 210mm;
+    height: 297mm;
+    border: 1px solid var(--primary);
+    margin: 1rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow: hidden;
+}
+
+.header,
+.footer {
+    display: none;
+}
+
+/* .footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.footer:last-child {
+    margin-top: auto;
+} */
